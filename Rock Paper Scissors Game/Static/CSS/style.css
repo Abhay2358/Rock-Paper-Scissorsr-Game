@@ -1,0 +1,92 @@
+.container-1, .container-2, .container-3, .container-4{
+    border: 1px;
+    border: 1px solid rgb(10, 10, 10);
+    margin: auto;
+    width: 75%;
+    text-align: center;
+}
+
+.flex-box-container-1,.flex-box-rps, .flex-box-container-2,
+ .flex-teenpatti-row1, .flex-box-teen-patti-row2, .flex-box-teen-patti-row3{ 
+    display: flex;
+    border: 1px solid black;
+    padding: 10;
+    flex-wrap: wrap;
+    flex-direction: row;
+    justify-content: space-around;
+}
+
+.flex-teenpatti-row1, .flex-box-teen-patti-row2{
+    display: flex;
+    background: url('https://media.istockphoto.com/photos/poker-table-picture-id1046326882?k=6&m=1046326882&s=612x612&w=0&h=FWwERAhFegLxTvxXw2uEyDg1ua1DiV-bXImf9ENaXDg=')center;
+    color: #ffffff;
+}
+
+.flex-box-teenpatti-row0, .flex-box-teen-patti-row3 {
+    background: url('https://media.istockphoto.com/photos/bright-blue-defocused-blurred-motion-abstract-background-picture-id1047234038?k=6&m=1047234038&s=612x612&w=0&h=O1lP8GIn46sboZL5bnMsznd4A1tRNJ7iXm1MMVh5I5c=')center;
+}
+
+.flex-teenpatti-row1 div{
+    display: flex;
+    border: 1px solid black;
+    padding: 10px;
+    flex: 1;
+    text-align: center;
+    height: 400px;
+
+}
+.flex-teenpatti-row1 img{
+    display: flex;
+    padding: 10px;
+    width: auto;
+
+}
+
+.flex-box-teen-patti-row2 button{
+    border: 1px solid black;
+}
+
+.flex-box-teen-patti-row2 div{
+    border: 1px solid black;
+    padding: 10px;
+}
+
+table td, th{
+    padding: 5px;
+    border: 1px solid black;
+
+}
+
+.flex-box-container-1 div{
+    display: flex;
+    padding: 10;
+    border: 1px solid black;
+}
+
+
+
+.container-2{
+  
+    border: 1px solid black;
+    margin: auto;
+    width: 75%;
+
+}
+.flex-box-container-2{
+    display: flex;
+    border: 1px solid black;
+    padding: 10;
+    justify-content: space-around;
+    flex-wrap: wrap;
+
+}
+.flex-box-container-2 div{
+    display: flex;
+    padding: 10;
+    border: 1px solid black;
+}
+
+.flex-box-rps img:hover{
+    box-shadow: 0px 20px 50px rgb(31, 31, 173);
+    
+}
